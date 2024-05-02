@@ -2,3 +2,7 @@
   font-family: IRANSans;
   src: url("../assets/fonts/IRANSans/IRANSans.ttf");
 }
+@font-face {
+  font-family: "IRANSansBold";
+  src: url("../assets/fonts/IRANSans/IRANSans_Bold.ttf");
+}
