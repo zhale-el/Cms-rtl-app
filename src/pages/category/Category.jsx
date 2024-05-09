@@ -1,6 +1,6 @@
 import React from "react";
 import "./Category.css";
-import TopBar from "../../components/Topbar/Tobbar";
+import Topbar from "../../components/Topbar/Topbar";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import CourseBox from "../../components/CourseBox/CourseBox";
@@ -9,7 +9,7 @@ import Pagination from "../../components/Pagination/Pagination";
 const Category = () => {
   return (
     <>
-      <TopBar />
+      <Topbar />
       <Navbar />
 
       <section className="courses">

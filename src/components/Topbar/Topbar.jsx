@@ -1,6 +1,7 @@
 import React from "react";
-import './Tobbar.css'
-const Tobbar = () => {
+import "./Topbar.css";
+
+const Topbar = () => {
   return (
     <div className="top-bar">
       <div className="container-fluid">
@@ -64,4 +65,4 @@ const Tobbar = () => {
   );
 };
 
-export default Tobbar;
+export default Topbar;
