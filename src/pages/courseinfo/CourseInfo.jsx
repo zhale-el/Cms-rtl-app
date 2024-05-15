@@ -13,6 +13,7 @@ import jsImg from "../../assets/images/courses/js_project.png";
 import fareelancerImg from "../../assets/images/courses/fareelancer.png";
 import nodeImg from "../../assets/images/courses/nodejs.png";
 import jangoImg from "../../assets/images/courses/jango.png";
+import CommentsTextarea from "../../components/CommentsTextarea/CommentsTextarea";
 
 const CourseInfo = () => {
   return (
@@ -377,6 +378,7 @@ const CourseInfo = () => {
                     زمینه وب فعالیت داشته باشم.و..
                   </p>
                 </div>
+                <CommentsTextarea />
               </div>
             </div>
             <div className="col-4">
